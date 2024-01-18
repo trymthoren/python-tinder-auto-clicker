@@ -24,7 +24,7 @@ Before using this tool, make sure you have:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/python-tinder-auto-clicker.git
+git clone https://github.com/trymthoren/python-tinder-auto-clicker.git
 ```
 
 Navigate to the directory:
