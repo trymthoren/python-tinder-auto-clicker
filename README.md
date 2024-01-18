@@ -1,19 +1,19 @@
-# Auto Key Presser
+# Python Tinder Auto Clicker
 
-The Auto Key Presser is a simple Python application that allows users to automate key presses on their keyboard with customizable settings. This tool is particularly useful for repetitive tasks that require keyboard input. It includes a basic GUI for ease of use.
+The Python Tinder Auto Clicker is a Python-based tool designed to automate interactions on the Tinder platform. This script simulates key presses to automate actions like swipes. It comes with a simple GUI for easy setup and use.
 
 ## Features
 
-- **Automated Key Pressing:** Simulate the pressing of the right arrow key on the keyboard.
-- **Customizable Press Count and Delay:** Users can specify the number of key presses and the minimum and maximum delay between presses.
-- **Start and Stop Functionality:** Easily start and stop the key pressing sequence.
-- **Simple GUI:** User-friendly interface to input settings and control the key presses.
+- **Automated Key Pressing:** Automates actions (like right arrow key presses) which can correspond to actions on Tinder (e.g., swipes).
+- **Customizable Press Count and Delay:** Users can set the number of automated actions and the delay between each action.
+- **Start and Stop Functionality:** Begin and end the automation process at your convenience.
+- **Simple GUI:** A user-friendly interface to input settings and manage the automation.
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+Before using this tool, make sure you have:
 - Python 3.x installed on your system.
-- `pyautogui` library installed. If you don't have it installed, you can install it via pip:
+- `pyautogui` library, which can be installed via pip:
 
   ```bash
   pip install pyautogui
@@ -21,37 +21,47 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-Clone the repository to your local machine:
+Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/auto-key-presser.git
+git clone https://github.com/your-username/python-tinder-auto-clicker.git
 ```
 
-Navigate to the cloned directory:
+Navigate to the directory:
 
 ```bash
-cd auto-key-presser
+cd python-tinder-auto-clicker
 ```
 
 ## Usage
 
-Run the script using Python:
+Run the script:
 
 ```bash
-python auto_key_presser.py
+python tinder_auto_clicker.py
 ```
 
-Upon running the script, a GUI will appear where you can:
-- Enter the number of key presses you want.
-- Set the minimum and maximum delay between each key press.
-- Click 'Start Pressing' to begin the process.
-- Use the 'Stop Pressing' button to halt the operation at any time.
+In the GUI:
+- Set the number of actions (e.g., swipes).
+- Define the minimum and maximum delay between actions.
+- Click 'Start Pressing' to initiate automation.
+- Use 'Stop Pressing' to halt the process anytime.
 
-## Caution
+## Disclaimer
 
-- The script will simulate key presses wherever your keyboard focus is. Make sure to focus on the correct window.
-- Be mindful of the settings, especially in a work or school environment.
+- Ensure that you have the Tinder window focused when running this script.
+- Be aware of Tinder's terms of service. This tool is for educational purposes and should be used responsibly.
+- The creator is not responsible for any misuse of this tool or any violations of Tinder's terms.
 
 ## Contributing
 
-Contributions to the Auto Key Presser are welcome. Please ensure to update tests as appropriate.
+Contributions are welcome. Please adhere to standard coding practices and update tests as necessary.
+
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+## Contact
+
+For questions or feedback, please contact me at trymthoren@gmail.com.
+```
