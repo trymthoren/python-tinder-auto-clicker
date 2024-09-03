@@ -40,6 +40,10 @@ Run the script:
 ```bash
 python tinder_auto_clicker.py
 ```
+or
+```bash
+python3 tinder_auto_clicker.py
+```
 
 In the GUI:
 - Set the number of actions (e.g., swipes).
@@ -63,5 +67,4 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 
 ## Contact
 
-For questions or feedback, please contact me at trymthoren@gmail.com.
-```
+For questions or feedback, use githubs built in tools
